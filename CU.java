@@ -1,4 +1,4 @@
-package robotV2;
+package rendufinal;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,9 +20,10 @@ import lejos.hardware.sensor.EV3IRSensor;
 
 
 /**
+ * Classe de gestion du capteur ultrason.
+ * @author Marion
  * 
- * Cette classe permet d utiliser le capteur a ultrasons (detecter les distances). 
- * Cette classe est utlisee par la classe Robot.
+ * Cette classe est utilisée par la classe Robot. 
  */
 public class CU {
 	private SensorModes sensor;

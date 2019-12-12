@@ -1,4 +1,4 @@
-package robotv33;
+package rendufinal;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -9,18 +9,17 @@ import lejos.hardware.BrickFinder;
 import lejos.hardware.Keys;
 import lejos.hardware.ev3.EV3;
 import lejos.utility.Delay;
-import robotv33.CC.Couleur;
+import rendufinal.CC.Couleur;
 
 /**
  * 
- * Cette classe est utilise pour construire l'ensemble des methodes 
- * utilisant un ensemble de capteurs et ou moteurs. 
+ * Cette classe définit l'ensemble des methodes utilisées dans la routine. 
+ * Ces dernières utilisent les méthodes des classes Moteurs/Capteurs.
  * 
  * 
- * 
- * @author benjamin
+ * @author Benjamin, Cédric, Marion, Swann
  * @see MR,CU,CT,CC,MP
- * Ce module est utilisé dans les classes Routine et RoutineCompetition
+ * Cette classe est utilisée dans la classe RoutineCompetition.
  */
 
 public class Robot {

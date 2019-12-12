@@ -1,4 +1,4 @@
-package robotv33;
+package rendufinal;
 
 import lejos.hardware.ev3.LocalEV3;
 import lejos.hardware.motor.EV3LargeRegulatedMotor;
@@ -6,15 +6,13 @@ import lejos.hardware.port.MotorPort;
 import lejos.hardware.port.Port;
 import lejos.robotics.RegulatedMotor;
 import lejos.utility.Delay;
-/** 
- * 
- * @author benjamin
- * Cette classe gere toutes les fonctions associé a l'utilisation 
- * des pinces 
- * 
- *Ce module est utlisé par : la classe robot 
- */
 
+/** 
+ * Classe de gestion du moteur pince.
+ * @author benjamin
+ * 
+ * Cette classe est utilisée par la classe Robot. 
+ */
 public class MP{
 	private RegulatedMotor m3;
 	

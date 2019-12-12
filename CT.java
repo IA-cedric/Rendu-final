@@ -1,4 +1,4 @@
-package robotv33;
+package rendufinal;
 
 import lejos.hardware.ev3.LocalEV3;
 import lejos.hardware.port.Port;
@@ -8,12 +8,12 @@ import lejos.hardware.sensor.SensorMode;
 import lejos.utility.Delay;
 
 
-/** Classe de gestion du bouton tactile en LEJOS EV3
-* version 1.0
-* @author Mitton Benjamin
-*
-* Ce module est utilisé par la classe Robot 
-*/
+/** 
+ * Classe de gestion du capteur tactile.
+ * @author Benjamin
+ *
+ * Cette classe est utilisée par la classe Robot. 
+ */
 
 public class CT {
 	private EV3TouchSensor touchSensor;

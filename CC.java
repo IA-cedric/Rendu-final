@@ -1,4 +1,4 @@
-package robotV2;
+package rendufinal;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -14,10 +14,11 @@ import lejos.robotics.filter.MeanFilter;
 
 
 /**
- * Le but de cette classe est de renvoyer la couleur captee par le capteur couleur afin de pouvoir se situer sur la table de jeu.
- * Cette classe va etre utilisee par : classe Robot 
- * @see robotV2.CCC
+ * Classe de gestion du capteur couleur. 
+ * @author Swann
+ * @see CCC
  *
+ * Cette classe est utilisée par la classe Robot. 
  */
 public class CC extends EV3ColorSensor {
 	private double[] tabDoubleBlue = new double[3];

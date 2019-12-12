@@ -1,7 +1,5 @@
-/**
- * 
- */
-package robotv33;
+
+package rendufinal;
 
 
 
@@ -16,9 +14,11 @@ import lejos.robotics.navigation.MovePilot;
 import lejos.utility.Delay;
 
 
-/**
+/** 
+ * Classe de gestion des moteurs roues.
  * @author Cédric
- * Cette classe est utilisé par la classe Robot. 
+ * 
+ * Cette classe est utilisée par la classe Robot. 
  */
 public class MR {
 	private static RegulatedMotor mg;

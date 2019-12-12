@@ -1,12 +1,20 @@
-package robotv33;
+package rendufinal;
 
 import lejos.hardware.BrickFinder;
 import lejos.hardware.Keys;
 import lejos.hardware.ev3.EV3;
-import robotv33.CC.Couleur;
-import robotv33.RoutineCompetition_Test.ETAT;
+import rendufinal.CC.Couleur;
 
+/** 
+ * Programme principal exécuté lors de la compétition.
+ * @author Benjamin, Cédric, Marion, Swann
+ * 
+ */
 public class RoutineCompetition {
+	
+	/** 
+	 * Ensemble des etats du robot durant l'exécution de la routine.
+	 */
 	public enum ETAT {TEST,PREMIER_PALET,ROTATION_RECHERCHE, ATTRAPER_PALET, DEPOSER_PALET_ENBUT, ERROR, FIN;}
 	public static void main(String[] args) {
 		Robot cedric = new Robot();
